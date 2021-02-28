@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_main.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_received.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\chat_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_add_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_baseline_person_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_stroke.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\background_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact_doctor.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_contact_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_main1.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\toolbar_main1.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_remove.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v28_activity_register.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout-v28\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_doctor.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_register_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_d.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_profile_d.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password1.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_change_password1.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v28_activity_edit_user_information.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout-v28\\activity_edit_user_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receiver.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\receiver.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_monitor_b_p_m.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_monitor_b_p_m.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo3.jpg.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable-v24\\logo3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_as.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_register_as.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo1.PNG.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable-v24\\logo1.PNG"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_userphoto.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\userphoto.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_doctor.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_add_doctor.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password2.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_change_password2.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_patient.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v28_activity_profile.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout-v28\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_drawer_main1.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\nav_drawer_main1.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sender.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\sender.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_remove_patient.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_remove_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_heartrangeage.jpg.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\heartrangeage.jpg"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_patient.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_add_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admim.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_admim.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_chat_send.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\chat_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_patient_data.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\activity_view_patient_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_report.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_drawer_main.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\layout\\nav_drawer_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\Desktop\\android\\DrHeartbeatMonitor2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    }
+]
