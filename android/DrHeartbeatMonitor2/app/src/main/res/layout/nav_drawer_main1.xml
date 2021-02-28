@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#247">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        android:onClick="ClickMenu"
+        android:src="@drawable/logo3"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/dr_heartbeat_monitor"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:ignore="RtlCompat" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#fff"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickHome"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_home"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/home"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickView"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:textColor="#fff"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_report"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/view_patient_data"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickContactD"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_contact"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/contact"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickAddPatient"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_baseline_person_add_24"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/add_patient"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickRemovePatient"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_remove"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:text="@string/remove_patient"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickProfile"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_profile"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:text="@string/profile"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="ClickLogOut"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:textColor="#fff"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_logout"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/logout"
+            android:padding="16dp"
+            android:layout_marginStart="4dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "192645562596",
+    "firebase_url": "https://dr-heartbeat-monitor-8cc0f.firebaseio.com",
+    "project_id": "dr-heartbeat-monitor-8cc0f",
+    "storage_bucket": "dr-heartbeat-monitor-8cc0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192645562596:android:997936bca079da7c0e2cf1",
+        "android_client_info": {
+          "package_name": "com.example.drheartbeatmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192645562596-09bqtguuju6on1cn9p6allet1a5nkn00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX7QbnuGvRTdiJSAK-iF7Yhq7A9l6EXQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192645562596-09bqtguuju6on1cn9p6allet1a5nkn00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

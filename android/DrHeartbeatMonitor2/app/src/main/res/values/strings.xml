@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Dr Heartbeat Monitor</string>
+    <string name="id_device">ID_Device:</string>
+    <string name="username">USERNAME:</string>
+    <string name="password">PASSWORD:</string>
+    <string name="login">LOGIN</string>
+    <string name="change_password">Change your password</string>
+    <string name="new_account">Create New Account</string>
+    <string name="full_name">Full Name:</string>
+    <string name="health_insurance">Health Insurance:</string>
+    <string name="birthday">Birthday:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="address">Address:</string>
+    <string name="register">Register</string>
+    <string name="display">  Display Devices</string>
+    <string name="add">ADD</string>
+    <string name="ID_Device">ID Device:</string>
+    <string name="dr_heartbeat_monitor">Dr. Heartbeat Monitor</string>
+    <string name="home">Home</string>
+    <string name="monitor_bpm">Monitor BPM</string>
+    <string name="profile">PROFILE</string>
+    <string name="todo">TODO</string>
+    <string name="contact">Contact</string>
+    <string name="logout">LogOut</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="heart_disease">If you have heart disease, tell us</string>
+    <string name="your_disease">your disease:</string>
+    <string name="edit_information">Edit</string>
+    <string name="edit_contact_info">Edit contact data</string>
+    <string name="edit_data">Edit Data</string>
+    <string name="disease_list">disease list</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="click_to_select">click to select</string>
+    <string name="e_mail_to_verify">enter your Username  to verify</string>
+    <string name="Next">NEXT</string>
+    <string name="verify_code">verify code:</string>
+    <string name="verify">verify</string>
+    <string name="new_password">New Password</string>
+    <string name="verfiy_password">VerfiyPassword</string>
+    <string name="verify_password">Verify password</string>
+    <string name="old_heartbeat_rate">Old HeartBeat rate</string>
+    <string name="current_heartbeat_rate">Current Heartbeat rate</string>
+    <string name="mac_address">MAC address</string>
+    <string name="your_disease_recorded">NOTE: your disease recorded in your data, you can remove anyone by selected it and click on (Remove) Button </string>
+    <string name="space" />
+    <string name="username_or_e_mail">Username or E-mail</string>
+    <string name="register_doctor">Register as Doctor</string>
+    <string name="register_patient">Register as Patient</string>
+    <string-array name="address">
+        <item>--select city--</item>
+        <item>Amman</item>
+        <item>Irbid</item>
+        <item>Ajloun</item>
+        <item>Aqaba</item>
+        <item>Madabah</item>
+        <item>Ma\'an</item>
+        <item>Zarqa</item>
+        <item>Jarash</item>
+        <item>Mafraq</item>
+        <item>Salt</item>
+        <item>Tafelah</item>
+        <item>AlBalqa\'a</item>
+    </string-array>
+    <string-array name="your_disease">
+        <item>--select disease--</item>
+        <item>Tachycardia</item>
+        <item>Atrial fibrillation</item>
+        <item>Wolff-Parkinson-White syndrome</item>
+        <item>Long QT syndrome</item>
+        <item>Bradycardia</item>
+        <item>Sick sinus syndrome</item>
+        <item>supraventricular tachycardia</item>
+    </string-array>
+    <string name="title_activity_doctor">Doctor</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="view_patient_data">View Patient data</string>
+    <string name="remove_patient">Remove Patient</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="add_doctor">Add Doctor</string>
+    <string name="disease">Diseases</string>
+    <string name="remove">Remove</string>
+    <string name="name">Name</string>
+    <string name="patient">Patients :</string>
+    <string name="message">Message</string>
+    <string name="send">SEND</string>
+    <string name="enter_patient_username">Enter Patient Username</string>
+    <string name="view">VIEW PATIENT LIST</string>
+    <string name="first_name">first</string>
+    <string name="second_name">middle</string>
+    <string name="last">last</string>
+</resources>

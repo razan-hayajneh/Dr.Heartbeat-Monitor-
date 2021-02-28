@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:background="#1B62BA">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="390dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/logo3"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/Display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.439"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:text="@string/ID_Device"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/id_dev"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.269" />
+
+            <EditText
+                android:id="@+id/id_dev"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint=""
+                android:inputType="textPersonName"
+                android:labelFor="@id/add"
+                android:textColor="#fff"
+
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.879"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.269"
+                tools:ignore="LabelFor" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:text="@string/mac_address"
+                android:textColor="#fff"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/mac_address"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.269" />
+
+            <EditText
+                android:id="@+id/mac_address"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint=""
+                android:inputType="textPersonName"
+                android:labelFor="@id/add"
+                android:textColor="#fff"
+
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.879"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.269"
+                tools:ignore="LabelFor" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:background="#F13737"
+            android:text="@string/add"
+            android:textColor="#fff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_dev"
+            app:layout_constraintVertical_bias="0.044" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Display"
+        android:layout_width="142dp"
+        android:layout_height="59dp"
+        android:background="#F13737"
+        android:text="@string/display"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

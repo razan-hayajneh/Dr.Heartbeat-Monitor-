@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="#6699ff"
+    android:padding="20dp">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="390dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/login"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ID_Device"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/id_device"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/ID_Device_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="number"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.913"
+                    app:layout_constraintStart_toEndOf="@+id/ID_Device"
+                    app:layout_constraintVertical_bias="0.101"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/full_name"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/full_name"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.143"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.099"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/full_name_ed"
+                    android:layout_width="78dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/first_name"
+                    android:inputType="textPersonName"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintVertical_bias="0.079"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+                <EditText
+                    android:id="@+id/full_name_ed1"
+                    android:layout_width="78dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="180dp"
+                    android:autofillHints=""
+                    android:ems="100"
+                    android:hint="@string/second_name"
+                    android:inputType="textPersonName"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintVertical_bias="0.079"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/full_name_ed2"
+                    android:layout_width="78dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="256dp"
+                    android:autofillHints=""
+                    android:ems="100"
+                    android:hint="@string/last"
+                    android:inputType="textPersonName"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintVertical_bias="0.079"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/USERNAME"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/username"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.143"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.099"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/username_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/USERNAME"
+                    app:layout_constraintVertical_bias="0.079"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/password"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.149"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.111"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/password_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.907"
+                    app:layout_constraintStart_toEndOf="@+id/password"
+                    app:layout_constraintVertical_bias="0.076"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/healthInsurance"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/health_insurance"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/healthInsurance_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="text"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.913"
+                    app:layout_constraintVertical_bias="0.101"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Birthday"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/birthday"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/Birthday_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:textColor="#fff"
+                    android:ems="10"
+                    android:text="@string/click_to_select"
+
+                    tools:ignore="LabelFor,RtlHardcoded" />
+            </RelativeLayout>
+
+            <RadioGroup
+                android:id="@+id/Gender"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal"
+                tools:ignore="RtlHardcoded">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender"
+                    android:textColor="#fff" />
+
+                <RadioButton
+                    android:id="@+id/radioM"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:id="@+id/radioF"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="@string/female"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+            </RadioGroup>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/phone_number"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117" />
+
+
+                <EditText
+                    android:id="@+id/Phone_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="phone"
+                    android:textColor="#fff"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Email"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/e_mail"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117"
+                    tools:ignore="RtlHardcoded" />
+                <EditText
+                    android:id="@+id/Email_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:inputType="textEmailAddress"
+                    android:textColor="#fff"
+                    tools:ignore="LabelFor,RtlHardcoded" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="@string/address"
+                    android:textColor="#fff"
+
+                    tools:ignore="RtlHardcoded" />
+
+                <Spinner
+                    android:id="@+id/Address"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginLeft="103dp"
+                    android:autofillHints=""
+                    android:hint="@string/address"
+                    android:outlineAmbientShadowColor="#fff"
+                    android:inputType="text"
+                    android:padding="6dp"
+                    tools:ignore="RtlHardcoded" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="200dp"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

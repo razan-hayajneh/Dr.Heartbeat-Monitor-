@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserInformation"
+    android:background="#6699ff">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_marginStart="10dp"
+     android:orientation="vertical"
+     android:layout_marginTop="50dp">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027"
+            app:srcCompat="@drawable/logo3"
+            tools:ignore="ContentDescription,MissingConstraints" />
+            <RelativeLayout
+                android:layout_marginStart="10dp"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/phone_number"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117" />
+
+
+                <EditText
+                    android:id="@+id/Phone_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint=""
+                    android:text=""
+                    android:textColor="#fff"
+                    tools:ignore="LabelFor"
+                    android:inputType="phone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="10dp"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Email"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/e_mail"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintVertical_bias="0.117" />
+                <EditText
+                    android:id="@+id/Email_ed"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:text=""
+                    android:textColor="#fff"
+                    tools:ignore="LabelFor"
+                    android:inputType="textEmailAddress"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="3dp"
+                    android:text="@string/address"
+                    android:textColor="#fff"
+                    />
+                <EditText
+                    android:id="@+id/Address1"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:autofillHints=""
+                    android:hint=""
+                    tools:ignore="LabelFor"
+                    android:outlineAmbientShadowColor="#fff"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:padding="6dp" />
+            </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="350dp"
+         android:layout_height="40dp"
+         android:layout_marginStart="20dp"
+         android:orientation="vertical">
+      <Button
+          android:id="@+id/save"
+          android:text="@string/save"
+          android:layout_width="100dp"
+          android:layout_height="50dp"/>
+
+      <Button
+          android:id="@+id/cancel"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="250dp"
+          android:text="@string/cancel"/>
+     </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

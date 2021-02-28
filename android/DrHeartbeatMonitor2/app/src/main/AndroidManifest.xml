@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.drheartbeatmonitor">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.DrHeartbeatMonitor"
+        tools:ignore="MissingClass">
+        <activity android:name=".ProfileD"/>
+        <activity android:name=".AddDoctor" />
+        <activity android:name=".RemovePatient" />
+        <activity android:name=".AddPatient" />
+        <activity android:name=".ContactDoctor" />
+        <activity android:name=".ViewPatientData" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".register_doctor" />
+        <activity android:name=".register_as" />
+        <activity android:name=".ChangePassword2" />
+        <activity android:name=".ChangePassword1" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".EditUserInformation" />
+        <activity android:name=".MonitorBPM" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Patient" />
+        <activity android:name=".admin" />
+        <activity android:name=".Register" />
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

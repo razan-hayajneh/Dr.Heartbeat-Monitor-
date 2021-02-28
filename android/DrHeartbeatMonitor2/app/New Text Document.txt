@@ -1,0 +1,11 @@
+Our project is a device that has been programmed by the Arduino programming
+language. It measures the users’ heartbeat average each 1minute and sends it via
+Bluetooth Hc-417 module to an application that was programmed by Android
+language. This application receives the heartbeat and calculates the average
+heartbeat per minute (BPM) and stores it in a firebase (online database) using
+application.
+Users must login into our Dr. Monitor application in order to be able to receive the
+BPM data and present it as Eco-Diagram. After that, the application will calculate
+the average BPM and save it in the user’s database.
+Users can preview or edit their personal information through their profile.
+Users can see their current BPM and BPM records in BPM monitor page. 
